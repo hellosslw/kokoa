@@ -1,0 +1,59 @@
+1.html tag는 <태그> 내용(content) </태크>
+
+2.unordered list <ul> 내용 </ul> 순서가 없는 목록
+쓰는법
+<ul>
+    <li>내용</li>
+    <li>내용</li>
+    <li>내용</li>
+</ul>
+
+3.ordered list 순서가 있는 목록
+<ol>
+    <li>내용</li>
+    <li>내용</li>
+    <li>내용</li>
+</ol>
+
+4. tag에 추가하는 부가적인 정보를 attributes(속성)이라한다
+<태그 속성="~~~"> 내용 </태그>
+
+5.anchor 앵커는 다른 웹사이트로 이동시킨다
+<a href="https://www.google.com" target="_blank">Go to google</a>
+                     target="_blank"는 다른 페이지에서 연다는뜻
+
+6.img는 self-closing tag 라서 닫는게 없다
+ex)     <img src="" alt="">
+
+7.head 파트는 웹사이트의 환경을 설정함
+외부적으로 보이지않는 설정을 함
+body는 사용자가 볼수있는 content를 보여줌
+
+8.margin,border,padding
+margin은 box의 border(경계)의 바깥에 있는 공간
+
+position:absolute가 position:relative를 가진 부모를 기준으로
+움직이는것은 맞지만 top,bottom,right,left를 이용하여 위치를
+변화시켰을때 position:relative를 가진 부모를 기준으로 움직임
+
+사진 사이즈 변경 시, 가로 세로 비율 그대로 유지하고 싶으신 분들은 object-fit: cover; 추가하시면 돼요!
+
+CSS border-radius 속성은 요소 테두리 경계의 꼭짓점을 둥글게 만듭니다.
+하나의 값을 사용해 원형 꼭짓점을, 두 개의 값을 사용해 타원형 꼭짓점을
+적용할 수 있습니다.
+
+position의 특징 중 하나가.
+적용된 요소의 크기는 내용의 크기만큼 자동으로 인지된다
+
+창크기 
+body {
+    height: 1000vh;
+}
+
+height CSS 속성은 요소의 높이를 지정합니다. 
+기본값은 콘텐츠 영역의 높이지만, box-sizing이 border-box라면 
+테두리 영역의 높이를 설정합니다.
+
+CSS width 속성은 요소의 너비를 설정합니다. 
+기본값은 콘텐츠 영역의 너비이지만, 
+box-sizing이 border-box라면 테두리 영역의 너비를 설정합니다.
